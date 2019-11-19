@@ -3,16 +3,17 @@
     <body>
 
         <p id="demo"></p>
+    </body>
         
         <script>
 class Car{
     constructor(brand){
 
-        this.carName=brand;
+        this.carname=brand;
     }
 }
-mycar=newCar("ford");
-document.getElementById("demo").innerHTML=mycar.carName;
+mycar=new Car("ford");
+document.getElementById("demo").innerHTML=mycar.carname;
         </script>
     </body>
 </html>
